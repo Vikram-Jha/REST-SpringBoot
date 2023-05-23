@@ -42,12 +42,12 @@ spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
 ## How to start building the REST APIs?
 ```
 create 5 folder in the root where your main() method is present:
-    - Entity                ---> Inside this create a POJO Class which will eventually define your table in database.
-    - controller            ---> All request api like get,put,post & delete are called here.It fetches data from service and give it to user(client)..
-    - Repository            ---> We extends JPARepository by our repository to get inbuild method which we can use in serviceImplementation class.
-    - Service                ---> Write the interface of all the method which will be required to implement the APIs.
-    - serviceImplementation        ---> Write the implementation of method which was written in service interface.
-    - Exception                ---> Can be written in case some exception happens with our REST API like 404 Not Found.
+  - Entity               ---> Inside this create a POJO Class which will eventually define your table in database.
+  - controller           ---> All request api like get,put,post & delete are called here.It fetches data from service and give it to user(client)..
+  - Repository           ---> We extends JPARepository by our repository to get inbuild method which we can use in serviceImplementation class.
+  - Service              ---> Write the interface of all the method which will be required to implement the APIs.
+  - serviceImplementation---> Write the implementation of method which was written in service interface.
+  - Exception            ---> Can be written in case some exception happens with our REST API like 404 Not Found.
 ```
 ## How to start the application and run the program?
 ```
