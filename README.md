@@ -2,9 +2,9 @@
 
 ## How to setup spring boot configuration in VS Code?
 
-Step1: Download VSCODE form offical site ---> Pretty easy no need to do anything special.
-Step2: Install Spring Boot Extension Bundle pack form VS Code extensions.
-Step3: It can be done in two ways:     
+- Step1: Download VSCODE form offical site ---> Pretty easy no need to do anything special.
+- Step2: Install Spring Boot Extension Bundle pack form VS Code extensions.
+- Step3: It can be done in two ways:     
   - Spring Initializer IO: Go to this website and provide configuration of your project.
   - Ctrl + Shift + P: Create java project --> Give the configuration of your project.
 
